@@ -3,13 +3,13 @@
 
 1 - setup the github(repository)
   a. new environment
-        - create conda environment
+    -- create conda environment
 		- open code folder in vscode
 		- create env "conda create -p venv  python==3.8 -y
 		- conda activate venv
-    - create Readme.md file.
-         -    git init
-        -     git add README.md
+    -- create Readme.md file.
+         --    git init
+        --     git add README.md
         -     git commit -m "first commit"
         -     git branch -M main
         -     git remote add origin https://github.com/santhulak/mlproject_deployment.git
