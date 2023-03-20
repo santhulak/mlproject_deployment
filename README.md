@@ -1,8 +1,8 @@
 # END to END MAchine Learning Projects
 
-
-1 - setup the github(repository)
-  a. new environment
+<ol>
+<li>1.  - setup the github(repository)
+  a. create a new environment
     -- create conda environment
 		- open code folder in vscode
 		- create env "conda create -p venv  python==3.8 -y
@@ -23,6 +23,6 @@
        - To do that pip install -r requirements.txt ( initiates setup.py)
        -- output of previous step ml_project.egg-info got created.
        - create a folder named 'src'-> __init__.py
-       
+    </ol>   
               
   c. requirements.txt
