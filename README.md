@@ -1,15 +1,26 @@
 # END to END MAchine Learning Projects
 
+<<<<<<< HEAD
 
 
 ## a. setup the github(repository)
     - create conda environment
 		- open code folder in vscode
+=======
+<ol>
+<li>1.  - setup the github(repository)
+	
+  a. create a new environment
+	
+    -- create conda environment	
+    -- open code folder in vscode
+	
+>>>>>>> d350574b781f4721482af21374837508c44e86dd
 		- create env "conda create -p venv  python==3.8 -y
 		- conda activate venv
-    - create Readme.md file.
-         -    git init
-        -     git add README.md
+    -- create Readme.md file.
+         --    git init
+        --     git add README.md
         -     git commit -m "first commit"
         -     git branch -M main
         -     git remote add origin https://github.com/santhulak/mlproject_deployment.git
@@ -23,8 +34,9 @@
        - To do that pip install -r requirements.txt ( initiates setup.py)
        -- output of previous step ml_project.egg-info got created.
        - create a folder named 'src'-> __init__.py
-       
+    </ol>   
               
+<<<<<<< HEAD
 # c. Project Structure
 
 -- create a folder named 'src'-> __init__.py
@@ -42,3 +54,6 @@
 
 
 ## d . Exception
+=======
+  c. requirements.txt
+>>>>>>> d350574b781f4721482af21374837508c44e86dd
