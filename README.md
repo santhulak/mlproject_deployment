@@ -1,9 +1,9 @@
 # END to END MAchine Learning Projects
 
 
-1 - setup the github(repository)
-  a. new environment
-        - create conda environment
+
+## a. setup the github(repository)
+    - create conda environment
 		- open code folder in vscode
 		- create env "conda create -p venv  python==3.8 -y
 		- conda activate venv
@@ -17,7 +17,7 @@
       - Create .gitignore file in github and choose category python
       - Git pull to pull the files to the local vs code
       - venv is not neccessary to be commited
-  b. project setup (setup.py) - building the application as package
+ ## b. project setup (setup.py) - building the application as package
        - create setup.py file
        - create requirements.txt (-e . should be removed)
        - To do that pip install -r requirements.txt ( initiates setup.py)
@@ -25,4 +25,17 @@
        - create a folder named 'src'-> __init__.py
        
               
-  c. requirements.txt
+# c. Project Structure
+
+-- create a folder named 'src'-> __init__.py
+-- create a folder named components under src folder and add __init__.py file
+-- create dataingestion.py under components folder(data collection)
+-- create datatransformation.py under components folder(data training)
+-- create model_trainer.py under components folder(training the model)
+
+-- create a folder named pipeline under src folder and add __init__.py file
+-- create train_pipeline.py under pipleine folder(train pipeline)
+-- create predict_pipeline.py under pipleine folder(predict pipeline)
+
+
+-- Under src folder create logger.py , exception.py, utils.py
