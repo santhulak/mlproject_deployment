@@ -2,9 +2,12 @@
 
 <ol>
 <li>1.  - setup the github(repository)
+	
   a. create a new environment
-    -- create conda environment
-		- open code folder in vscode
+	
+    -- create conda environment	
+    -- open code folder in vscode
+	
 		- create env "conda create -p venv  python==3.8 -y
 		- conda activate venv
     -- create Readme.md file.
