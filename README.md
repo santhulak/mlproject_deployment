@@ -28,6 +28,7 @@
       - Create .gitignore file in github and choose category python
       - Git pull to pull the files to the local vs code
       - venv is not neccessary to be commited
+      
  ## b. project setup (setup.py) - building the application as package
        - create setup.py file
        - create requirements.txt (-e . should be removed)
@@ -57,3 +58,6 @@
 =======
   c. requirements.txt
 >>>>>>> d350574b781f4721482af21374837508c44e86dd
+
+## e. EDA and Model Training
+ * create a folder 'Notebook' -> eda.ipynb and model_training.ipynb
